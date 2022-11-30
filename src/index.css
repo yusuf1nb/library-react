@@ -138,8 +138,8 @@ button:active {
   justify-content: center;
   color: #7342d6;
   font-size: 20px;
-  position: relative;
   margin-left: 8px;
+  position: relative;
 }
 
 .cart__length {
@@ -152,9 +152,9 @@ button:active {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  position: absolute;
-  bottom: 4px;
-  right: -4px;
+  position: relative;
+  bottom: 2px;
+  right: -20px;
   pointer-events: none;
 }
 
