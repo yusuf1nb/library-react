@@ -10,10 +10,10 @@ import {
   faTimes,
   faBolt,
   faTags,
-  faBookOpen, faStar, faStarHalfAlt,
+  faBookOpen, faStar, faStarHalfAlt, faArrowLeft
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faBars, faShoppingCart, faTimes, faBolt, faTags, faBookOpen, faStar, faStarHalfAlt);
+library.add(faBars, faShoppingCart, faTimes, faBolt, faTags, faBookOpen, faStar, faStarHalfAlt, faArrowLeft);
 
 ReactDOM.render(
   <React.StrictMode>
