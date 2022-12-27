@@ -6,9 +6,9 @@ function Price({ originalPrice, salePrice }) {
     {salePrice ? (
       <>
         <span className="book__price--normal">
-          {originalPrice.toFixed(2)}
+          ${originalPrice.toFixed(2)}
         </span>
-        {salePrice.toFixed(2)}
+        ${salePrice.toFixed(2)}
       </>
     ) : (
       <>${originalPrice.toFixed(2)}</>
